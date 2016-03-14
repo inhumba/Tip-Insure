@@ -6,25 +6,23 @@ $imgpath:								"../../img";
 $fontpath:								"../../fonts";
 
 // Color
-$yellow:								#FEC400;
-$red: 									#FF5564;
-$blue:									#005EA5;
-$navy:									#004477;
-$darknavy:								#004376;
-$darkestnavy:							#00365E;
-$black:									#222;
-$grey:									#4A4A4A;
-$lightgrey:								#919191;
+$purple:								#1a247d;
+$red: 									#ec2227;
+$lightpurple:							#8ba4d9;
+$blue:									#81d4fd;
+$darkblue:								#0f9bdc;
+$dark:									#253145;
+$grey:									#bbb;
 $white:									#FFF;
 
 $body-color:							$white;
-$header-color:							$white;
-$mainnav-color:							$white;
+$header-color:							$purple;
+$mainnav-color:							$purple;
 $content-color:							$white;
-$footer-color:							$darknavy;
-$bottom-color:							$darkestnavy;
-$text-color:							$black;
-$heading-color:							$grey;
+$footer-color:							$purple;
+$bottom-color:							$white;
+$text-color:							$grey;
+$heading-color:							$purple;
 $link-color:							$blue;
 $link-hover-color:						darken($link-color, 10%);
 
@@ -40,6 +38,6 @@ $brand-color: (
 );
 
 // Typography
-$font-kelson-regular:					"kelson_sans_regular", Helvetica, Arial, sans-serif;
-$font-kelson-bold:						"kelson_sans_bold", Helvetica, Arial, sans-serif;
-$font-kelson-light:						"kelson_sans_light", Helvetica, Arial, sans-serif;
+$font-superspace-bold:					"superspace_bold", Helvetica, Arial, sans-serif;
+$font-superspace-regular:				"superspace_regular", Helvetica, Arial, sans-serif;
+$font-superspace-light:					"superspace_light", Helvetica, Arial, sans-serif;

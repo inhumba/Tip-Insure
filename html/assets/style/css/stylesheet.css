@@ -243,24 +243,345 @@ select {
 ---------------------------------------*/
 @font-face {
   font-family: 'superspace_bold';
-  src: url("../../fonts/superspace_bold.eot");
-  src: url("../../fonts/superspace_bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/superspace_bold.woff2") format("woff2"), url("../../fonts/superspace_bold.woff") format("woff"), url("../../fonts/superspace_bold.ttf") format("truetype"), url("../../fonts/superspace_bold.svg#superspace_bold") format("svg");
+  src: url("../../fonts/superspace/superspace_bold.eot");
+  src: url("../../fonts/superspace/superspace_bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/superspace/superspace_bold.woff2") format("woff2"), url("../../fonts/superspace/superspace_bold.woff") format("woff"), url("../../fonts/superspace/superspace_bold.ttf") format("truetype"), url("../../fonts/superspace/superspace_bold.svg#superspace_bold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'superspace_light';
-  src: url("../../fonts/superspace_light.eot");
-  src: url("../../fonts/superspace_light.eot?#iefix") format("embedded-opentype"), url("../../fonts/superspace_light.woff2") format("woff2"), url("../../fonts/superspace_light.woff") format("woff"), url("../../fonts/superspace_light.ttf") format("truetype"), url("../../fonts/superspace_light.svg#superspace_light") format("svg");
+  src: url("../../fonts/superspace/superspace_light.eot");
+  src: url("../../fonts/superspace/superspace_light.eot?#iefix") format("embedded-opentype"), url("../../fonts/superspace/superspace_light.woff2") format("woff2"), url("../../fonts/superspace/superspace_light.woff") format("woff"), url("../../fonts/superspace/superspace_light.ttf") format("truetype"), url("../../fonts/superspace/superspace_light.svg#superspace_light") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'superspace_regular';
-  src: url("../../fonts/superspace_regular.eot");
-  src: url("../../fonts/superspace_regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/superspace_regular.woff2") format("woff2"), url("../../fonts/superspace_regular.woff") format("woff"), url("../../fonts/superspace_regular.ttf") format("truetype"), url("../../fonts/superspace_regular.svg#superspace_regular") format("svg");
+  src: url("../../fonts/superspace/superspace_regular.eot");
+  src: url("../../fonts/superspace/superspace_regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/superspace/superspace_regular.woff2") format("woff2"), url("../../fonts/superspace/superspace_regular.woff") format("woff"), url("../../fonts/superspace/superspace_regular.ttf") format("truetype"), url("../../fonts/superspace/superspace_regular.svg#superspace_regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
+/* TYPO
+---------------------------------------*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "superspace_bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+ol, li, p {
+  color: #bbb;
+  font-family: "superspace_regular", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #81d4fd;
+}
+a:hover, a:focus {
+  color: #4fc3fc;
+  text-decoration: none;
+}
+
+.top {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.header {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+.footer-info {
+  font-size: 17px;
+  font-size: 1.7rem;
+}
+
+.contactform {
+  font-size: 19px;
+  font-size: 1.9rem;
+}
+
+.quickclaim {
+  font-size: 36px;
+  font-size: 3.6rem;
+}
+
+.bottom-text {
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+
+/* GENERAL
+---------------------------------------*/
+body {
+  background-color: #FFF;
+}
+
+/* HEADER
+---------------------------------------*/
+.header {
+  background-color: #1a247d;
+  border-top: 3px solid #ec2227;
+}
+
+/* PROMO
+---------------------------------------*/
+.promo {
+  background-image: url(../../img/promo-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 250px 0 80px;
+}
+.promo > .container {
+  padding: 0 150px;
+}
+
+.promo-media {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.promo-media > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* QUICK CONTACT
+---------------------------------------*/
+.quickcontact {
+  background-color: #deeaf5;
+}
+
+.quickcontact-info .contactgirl {
+  display: block;
+  text-indent: -9999px;
+  background-image: url('../../img/girl.jpg?1457943461');
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 536px;
+  height: 596px;
+  float: right;
+}
+.quickcontact-info .contactform {
+  width: 450px;
+}
+.quickcontact-info .contactform .topic {
+  color: #1a247d;
+  font-size: 2.8em;
+  font-weight: bold;
+  line-height: 1.0;
+  text-align: center;
+}
+.quickcontact-info .contactform .topic > span {
+  color: #0f9bdc;
+}
+
+.quickcontact-form {
+  background-color: #FFF;
+  margin-top: 20px;
+  padding: 25px 50px;
+  -moz-border-radius: 0 15px 0 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 15px 0 0;
+}
+
+/* QUICK CLAIM
+---------------------------------------*/
+.quickclaim {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.quickclaim-text {
+  text-align: center;
+}
+.quickclaim-text > .topic {
+  color: #888;
+}
+.quickclaim-text > .topic > span {
+  color: #1a247d;
+}
+
+/* FOOTER
+---------------------------------------*/
+.footer {
+  background-color: #1a247d;
+  border-bottom: 3px solid #ec2227;
+  padding: 30px 0 25px;
+}
+
+.footer-info h5 {
+  color: #FFF;
+  font-size: 1.1em;
+  margin-bottom: 3px;
+}
+.footer-info ul {
+  float: left;
+  padding-left: 35px;
+  width: 50%;
+}
+.footer-info ul._fullwidth {
+  padding-left: 0;
+}
+.footer-info li {
+  list-style-type: none;
+}
+.footer-info li > a {
+  color: #BBB;
+  display: block;
+  margin-bottom: 3px;
+}
+.footer-info li > a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+.footer-info p {
+  color: #BBB;
+  line-height: 1.85;
+  margin-bottom: 5px;
+}
+
+.social-nav > .facebook {
+  display: block;
+  text-indent: -9999px;
+  background-image: url('../../img/facebook-sprite.jpg?1457959738');
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 34px;
+  height: 68px;
+  height: 34px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.social-nav > .facebook:hover {
+  background-position: center bottom;
+}
+
+.social-nav > .youtube {
+  display: block;
+  text-indent: -9999px;
+  background-image: url('../../img/youtube-sprite.jpg?1457959804');
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 34px;
+  height: 68px;
+  height: 34px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.social-nav > .youtube:hover {
+  background-position: center bottom;
+}
+
+.social-nav > .twitter {
+  display: block;
+  text-indent: -9999px;
+  background-image: url('../../img/twitter-sprite.jpg?1457959857');
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 34px;
+  height: 68px;
+  height: 34px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.social-nav > .twitter:hover {
+  background-position: center bottom;
+}
+
+.social-nav > .instagram {
+  display: block;
+  text-indent: -9999px;
+  background-image: url('../../img/instagram-sprite.jpg?1457959928');
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 34px;
+  height: 68px;
+  height: 34px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.social-nav > .instagram:hover {
+  background-position: center bottom;
+}
+
+/* BOTTOM
+---------------------------------------*/
+.bottom {
+  background-color: #FFF;
+  padding: 10px 0;
+}
+
+.bottom-text > p {
+  color: #bbb;
+}
+.bottom-text > p > b {
+  color: #1a247d;
+  text-transform: uppercase;
+}
+.bottom-text > p > span {
+  color: #ec2227;
+  font-size: 1.4em;
+}
+.bottom-text > p > img {
+  margin-top: 5px;
+}
+
 /* MISC.
 ---------------------------------------*/
+._floatleft {
+  float: left !important;
+}
+
+._floatright {
+  float: right !important;
+}
+
+._fullwidth {
+  width: 100% !important;
+}

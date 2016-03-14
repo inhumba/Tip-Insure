@@ -20,11 +20,11 @@ Version: 2.0
 //== Typo & Fonts
 // @import url(#{$fontpath}/font-awesome/css/font-awesome.min.css);
 @import "typo/fonts";
-// @import "typo/typo";
+@import "typo/typo";
 // @import "typo/editor";
 
 //== Style
-// @import "style/main";
+@import "style/main";
 
 //== Components
 // @import "components/slidebars";

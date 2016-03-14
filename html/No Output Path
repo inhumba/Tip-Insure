@@ -1,0 +1,22 @@
+
+<!-- Header-->
+<aside class="top">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Top</h1>
+      </div>
+    </div>
+  </div>
+</aside>
+<!-- Header-->
+<header class="header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Header</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
