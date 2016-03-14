@@ -1,0 +1,51 @@
+/* CUSTOM MMENU
+---------------------------------------*/
+
+.mm-menu .mm-navbar {
+	// height: $header-height-mobile;
+	// @extend %bg-shadow;
+}
+.mm-title {
+	// color: $navy!important;
+	// font-family: $font-bold;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+.mm-menu > .mm-panel > .mm-navbar + .mm-listview {
+	margin-top: 0;
+}
+.mm-menu .mm-divider {
+	display: none;
+}
+.mm-listview > li > a,
+.mm-listview > li > span {
+	color: #FFF;
+	font-size: 1.1em;
+}
+.mm-listview .fa {
+	color: #FFF;
+	margin-right: 5px;
+}
+.mm-navbar .mm-btn {
+	top: 10px;
+}
+.mm-menu.mm-theme-white .mm-navbar .mm-btn:before,
+.mm-menu.mm-theme-white .mm-navbar .mm-btn:after {
+	border-color: #FFF;
+}
+.mm-menu.mm-theme-white .mm-listview > li .mm-prev:before,
+.mm-menu.mm-theme-white .mm-listview > li .mm-next:after,
+.mm-menu.mm-theme-white .mm-listview > li .mm-arrow:after {
+	border-color: #FFF;
+}
+.mm-menu.mm-theme-white .mm-listview > li .mm-prev:after,
+.mm-menu.mm-theme-white .mm-listview > li .mm-next:before {
+	border: none;
+}
+#mm-8 .mm-divider {
+	color: #FFF;
+	display: block;
+	// font-family: $font-bold;
+	font-size: 1.1em;
+}
+

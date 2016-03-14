@@ -1,0 +1,124 @@
+/* ROYALSLIDER
+---------------------------------------*/
+
+.royalslider {
+	height: 600px;
+	width: 100%;
+	> .rsContent {
+		visibility: hidden;
+	}
+}
+.rsImg {
+	margin-top: 0!important;
+}
+%_captionstyle {
+	color: $white;
+	@include text-shadow(0 0 7px rgba(0,0,0,.4));
+}
+.infoBlock {
+	position: absolute;
+	top: 100px;
+	left: 10%;
+	width: 80%;
+	text-align: center;
+	> h4 {
+		font-family: $font-kelson-bold;
+		font-size: 2em;
+		line-height: 1.4;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		@extend %_captionstyle;
+	}
+	> p {
+		@extend %roboto-light;
+		font-size: 1.2em;
+		line-height: 1;
+		@extend %_captionstyle;
+	}
+	> a {
+		background: $black;
+		background: rgba(0,0,0,.5);
+		border: 1px solid $yellow;
+		color: $yellow;
+		display: inline-block;
+		display: none;
+		font-family: $font-kelson-regular;
+		font-size: 0.5em;
+		margin-top: 20px;
+		padding: 8px 20px;
+		text-transform: uppercase;
+		@include transition(all 0.3s);
+		&:hover {
+			background: #000;
+		}
+	}
+}
+
+.royalslider-gallery {
+	background: #272727;
+	padding: 10px 0 15px;
+	&.rsDefault, &.rsDefault .rsOverflow, &.rsDefault .rsSlide, &.rsDefault .rsVideoFrameHolder, &.rsDefault .rsThumbs {
+		background: #272727;
+	}
+	&.rsDefault .rsThumb {
+		height: 150px;
+		width: 150px;
+	}
+	&.rsDefault .rsThumbsHor {
+		margin-top: 7px;
+	}
+	&.rsDefault .rsThumb.rsNavSelected {
+		background: #FFF;
+	}
+}
+
+.royalslider-room {
+	height: 500px;
+	width: 100%;
+}
+
+// Tablet
+@media (max-width: 1199px) {
+
+	.infoBlock {
+		top: 50px;
+		> h4 {
+			font-size: 1.5em;
+			line-height: 1.3;
+		}
+		> a {
+			margin-top: 15px;
+		}
+	}
+
+}
+
+// @media (min-width: 768px) {
+
+// 	.infoBlock {
+// 		max-width: 40%;
+// 		top: 40px;
+// 		left: 40px;
+// 		h4 {
+// 			font-size: 2em;
+// 		}
+// 		p {
+// 			font-size: 1em;
+// 			display: block;
+// 		}
+// 	}
+// 	.rsDefault .rsBullets {
+// 		left: 25px;
+// 		bottom: 30px;
+// 	}
+
+// }
+
+// @media (min-width: 992px) {
+
+// 	// .royalslider {
+// 	// 	height: auto;
+// 	// 	width: 1140px;
+// 	// }
+
+// }

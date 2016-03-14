@@ -1,0 +1,48 @@
+/* MODAL
+---------------------------------------*/
+
+.modal-header {
+	display: none;
+}
+.modal-body {
+	@extend %roboto-medium;
+	font-size: 1.1em;
+	padding-top: 25px;
+	text-align: center;
+}
+.modal-footer {
+	border-top: none;
+	font-size: 0.9em;
+	text-align: center;
+	.btn {
+		text-transform: uppercase;
+	}
+}
+
+.modal-apply {
+	&.mm-page {
+		position: fixed;
+	}
+	.modal-header {
+		display: block;
+		text-align: center;
+	}
+	.modal-title {
+		font-size: 1.4em;
+		.position {
+			margin-left: 5px;
+			text-decoration: underline;
+		}
+	}
+	.modal-body {
+		@extend %roboto-medium;
+		font-size: 1em;
+		padding: 15px;
+		text-align: left;
+	}
+	.modal-footer {
+		background-color: #f2f2f2;
+		border-top: 1px solid #e2e2e2;
+	}
+}
+

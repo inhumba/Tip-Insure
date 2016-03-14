@@ -1,0 +1,23 @@
+/* TOTOP
+---------------------------------------*/
+
+.totop {
+	background: url(#{$imgpath}/totop_bg.png);
+	color: $white;
+	cursor: pointer;
+	display: block;
+	height: image-height("totop_bg.png");
+	width: image-width("totop_bg.png");
+	font-family: $font-raleway-regular;
+	font-size: 1em;
+	padding: 13px 0 0 15px;
+	position: absolute;
+	top: -46px;
+	right: 0;
+	text-align: left;
+	.fa {
+		font-size: 1.3em;
+		margin-left: 10px;
+	}
+}
+

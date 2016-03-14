@@ -1,0 +1,45 @@
+/* VARIABLES
+---------------------------------------*/
+
+// Path
+$imgpath:								"../../img";
+$fontpath:								"../../fonts";
+
+// Color
+$yellow:								#FEC400;
+$red: 									#FF5564;
+$blue:									#005EA5;
+$navy:									#004477;
+$darknavy:								#004376;
+$darkestnavy:							#00365E;
+$black:									#222;
+$grey:									#4A4A4A;
+$lightgrey:								#919191;
+$white:									#FFF;
+
+$body-color:							$white;
+$header-color:							$white;
+$mainnav-color:							$white;
+$content-color:							$white;
+$footer-color:							$darknavy;
+$bottom-color:							$darkestnavy;
+$text-color:							$black;
+$heading-color:							$grey;
+$link-color:							$blue;
+$link-hover-color:						darken($link-color, 10%);
+
+$brand-color: (
+	facebook: 		#3b5998,
+	twitter: 		#00aced,
+	googleplus: 	#dd4b39,
+	youtube: 		#bb0000,
+	instagram: 		#125688,
+	linkedin: 		#007bb5,
+	pinterest: 		#cb2027,
+	line: 			#00C300
+);
+
+// Typography
+$font-kelson-regular:					"kelson_sans_regular", Helvetica, Arial, sans-serif;
+$font-kelson-bold:						"kelson_sans_bold", Helvetica, Arial, sans-serif;
+$font-kelson-light:						"kelson_sans_light", Helvetica, Arial, sans-serif;

@@ -1,0 +1,36 @@
+/* BREADCRUMB
+---------------------------------------*/
+
+// .breadcrumb-section {
+// 	background: $gray url(#{$imgpath}/bg_breadcrumb.png) repeat-x;
+// 	height: 52px;
+// 	padding: 15px 0 0;
+// 	@extend %cf;
+// }
+.breadcrumb {
+	background: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	li {
+		color: $grey;
+		display: inline-block;
+		@extend %roboto-normal;
+		font-size: 1em;
+		+ li:before {
+			color: $white;
+			content: "›";
+			padding: 0 9px 0 5px;
+		}
+		a {
+			color: $white;
+			@extend %roboto-normal;
+			font-size: 1em;
+			&:hover {
+				color: $white;
+				text-decoration: underline;
+			}
+		}
+	}
+}

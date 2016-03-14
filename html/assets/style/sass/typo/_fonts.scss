@@ -1,0 +1,117 @@
+/* FONTS
+---------------------------------------*/
+
+@font-face {
+    font-family: 'superspace_bold';
+    src: url('#{$fontpath}/superspace_bold.eot');
+    src: url('#{$fontpath}/superspace_bold.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontpath}/superspace_bold.woff2') format('woff2'),
+         url('#{$fontpath}/superspace_bold.woff') format('woff'),
+         url('#{$fontpath}/superspace_bold.ttf') format('truetype'),
+         url('#{$fontpath}/superspace_bold.svg#superspace_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'superspace_light';
+    src: url('#{$fontpath}/superspace_light.eot');
+    src: url('#{$fontpath}/superspace_light.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontpath}/superspace_light.woff2') format('woff2'),
+         url('#{$fontpath}/superspace_light.woff') format('woff'),
+         url('#{$fontpath}/superspace_light.ttf') format('truetype'),
+         url('#{$fontpath}/superspace_light.svg#superspace_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'superspace_regular';
+    src: url('#{$fontpath}/superspace_regular.eot');
+    src: url('#{$fontpath}/superspace_regular.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontpath}/superspace_regular.woff2') format('woff2'),
+         url('#{$fontpath}/superspace_regular.woff') format('woff'),
+         url('#{$fontpath}/superspace_regular.ttf') format('truetype'),
+         url('#{$fontpath}/superspace_regular.svg#superspace_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'kelson_sans_bold';
+//     src: url('#{$fontpath}/kelson/kelson_sans_bold.eot');
+//     src: url('#{$fontpath}/kelson/kelson_sans_bold.eot?#iefix') format('embedded-opentype'),
+//          url('#{$fontpath}/kelson/kelson_sans_bold.woff2') format('woff2'),
+//          url('#{$fontpath}/kelson/kelson_sans_bold.woff') format('woff'),
+//          url('#{$fontpath}/kelson/kelson_sans_bold.ttf') format('truetype'),
+//          url('#{$fontpath}/kelson/kelson_sans_bold.svg#kelson_sans_bold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'kelson_sans_light';
+//     src: url('#{$fontpath}/kelson/kelson_sans_light.eot');
+//     src: url('#{$fontpath}/kelson/kelson_sans_light.eot?#iefix') format('embedded-opentype'),
+//          url('#{$fontpath}/kelson/kelson_sans_light.woff2') format('woff2'),
+//          url('#{$fontpath}/kelson/kelson_sans_light.woff') format('woff'),
+//          url('#{$fontpath}/kelson/kelson_sans_light.ttf') format('truetype'),
+//          url('#{$fontpath}/kelson/kelson_sans_light.svg#kelson_sans_light') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'kelson_sans_regular';
+//     src: url('#{$fontpath}/kelson/kelson_sans_regular.eot');
+//     src: url('#{$fontpath}/kelson/kelson_sans_regular.eot?#iefix') format('embedded-opentype'),
+//          url('#{$fontpath}/kelson/kelson_sans_regular.woff2') format('woff2'),
+//          url('#{$fontpath}/kelson/kelson_sans_regular.woff') format('woff'),
+//          url('#{$fontpath}/kelson/kelson_sans_regular.ttf') format('truetype'),
+//          url('#{$fontpath}/kelson/kelson_sans_regular.svg#kelson_sans_regular') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// %roboto-light {
+//   font-family: "Roboto", Helvetica, Arial, sans-serif;
+//   font-weight: 300;
+//   font-style: normal;
+// }
+
+// %roboto-lighti {
+//   font-family: "Roboto", Helvetica, Arial, sans-serif;
+//   font-weight: 300;
+//   font-style: oblique;
+// }
+
+// %roboto-normal {
+//   font-family: "Roboto", Helvetica, Arial, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// %roboto-normali {
+//   font-family: "Roboto", Helvetica, Arial, sans-serif;
+//   font-weight: 400;
+//   font-style: oblique;
+// }
+
+// %roboto-medium {
+//   font-family: "Roboto", Helvetica, Arial, sans-serif;
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// %roboto-mediumi {
+//   font-family: "Roboto", Helvetica, Arial, sans-serif;
+//   font-weight: 500;
+//   font-style: oblique;
+// }
+
+// %roboto-bold {
+//   font-family: "Roboto", Helvetica, Arial, sans-serif;
+//   font-weight: 700;
+//   font-style: normal;
+// }
+

@@ -1,0 +1,12 @@
+/* MIXINS
+---------------------------------------*/
+
+@mixin font-size ($size) {
+    font-size: $size + px;
+    font-size: ($size / 10) + rem;
+}
+
+@mixin hide-text() {
+	display: block;
+	text-indent: -9999px;
+}

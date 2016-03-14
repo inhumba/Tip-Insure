@@ -1,0 +1,82 @@
+/* NAVBAR TOGGLE
+---------------------------------------*/
+
+// .navbar-collapse {
+// 	background: $blue;
+// 	border-top: 1px solid #fff;
+// 	border-bottom: 1px solid #fff;
+// 	position: absolute;
+// 	top: 53px;
+// 	right: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	z-index: 100;
+// 	@include box-shadow(none);
+// }
+// .navbar-toggle {
+// 	margin: 0;
+// 	padding: 5px 20px;
+// 	@include border-radius(0);
+// 	> .icon-bar {
+// 		background: #fff;
+// 		height: 5px;
+// 		width: 29px;
+// 		@include transition(all 0.3s);
+// 		+ .icon-bar {
+// 			margin-top: 5px;
+// 		}
+// 	}
+// 	.top-bar {
+// 		@include transform(rotate(-45deg));
+// 		@include transform-origin(100%, 50%);
+// 	}
+// 	.middle-bar {
+// 		@include opacity(0);
+// 	}
+// 	.bottom-bar {
+// 		@include transform(rotate(45deg));
+// 		@include transform-origin(100%, 50%);
+// 	}
+// 	&.collapsed {
+// 		background-color: transparent;
+// 		padding: 5px 20px;
+// 		.top-bar {
+// 			@include transform(rotate(0));
+// 		}
+// 		.middle-bar {
+// 			@include opacity(1);
+// 		}
+// 		.bottom-bar {
+// 			@include transform(rotate(0));
+// 		}
+// 		> .icon-bar {
+// 			background: $white;
+// 		}
+// 	}
+// }
+
+.hamburger {
+	> .icon-bar {
+		margin-top: 4px;
+		float: left;
+		> .bar {
+			background: #FFF;
+			display: block;
+			height: 2px;
+			width: 20px;
+			+ .bar {
+				margin-top: 4px;
+			}
+		}
+	}
+	> .text-bar {
+		color: #FFF;
+		float: right;
+		font-size: 1em;
+		margin-left: 7px;
+		text-transform: uppercase;
+	}
+}
+
+
+

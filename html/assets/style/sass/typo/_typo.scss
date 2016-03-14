@@ -1,0 +1,107 @@
+/* TYPO
+---------------------------------------*/
+
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.4em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-kelson-bold;
+	font-weight: normal;
+	line-height: 1.3;
+	// letter-spacing: 1px;
+	margin: 0;
+}
+h1 {font-size: 1.3em}
+h2 {font-size: 1.2em}
+h3 {font-size: 1.1em}
+h4 {font-size: 1em}
+h5 {font-size: 0.9em}
+h6 {font-size: 0.8em}
+
+ol, li, p {
+	color: $text-color;
+	@extend %roboto-normal;
+	line-height: 1.6;
+	// letter-spacing: 1px;
+}
+a {
+	color: $link-color;
+	@extend %roboto-normal;
+	&:hover, &:focus {
+		color: $link-hover-color;
+		text-decoration: none;
+	}
+}
+
+.top-nav {
+	@include font-size(12);
+}
+.mainnav {
+	@include font-size(15);
+}
+.footer {
+	@include font-size(13);
+}
+.bottom {
+	@include font-size(12);
+}
+.feature {
+	@include font-size(25);
+}
+.signup {
+	@include font-size(16);
+}
+.reservation {
+	@include font-size(12);
+}
+.promotion-widget {
+	@include font-size(20);
+}
+.welcome {
+	@include font-size(14);
+}
+.editor {
+	@include font-size(14);
+}
+.page-header {
+	@include font-size(14);
+}
+.faq {
+	@include font-size(14);
+}
+.career {
+	@include font-size(14);
+}
+.promotion-list {
+	@include font-size(14);
+}
+.promo-head {
+	@include font-size(24);
+}
+.promotion-detail {
+	@include font-size(14);
+}
+.roomtype {
+	@include font-size(12);
+}
+.fact {
+	@include font-size(14);
+}
+.mobile-menu {
+	@include font-size(16);
+}
+.fix-nav {
+	@include font-size(16);
+}
+.modal {
+	@include font-size(18);
+}
+.modal-apply {
+	@include font-size(14);
+}
+
+
+

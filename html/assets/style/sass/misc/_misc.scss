@@ -1,0 +1,151 @@
+/* MISC.
+---------------------------------------*/
+
+// .block-center {
+// 	margin-left: auto!important;
+// 	margin-right: auto!important;
+// }
+// ._textleft {
+// 	text-align: left!important;
+// }
+// ._textright {
+// 	text-align: right!important;
+// }
+// ._textcenter {
+// 	text-align: center!important;
+// }
+// ._floatleft {
+// 	float: left!important;
+// }
+// ._floatright {
+// 	float: right!important;
+// }
+
+// ._zebra {
+// 	border-bottom: 2px solid #FEC400;
+// 	tr:nth-child(even) {
+// 		background-color: #F3F3F3;
+// 	}
+// }
+
+// .pd-0 {
+// 	padding: 0;
+// }
+// .pl-0 {
+// 	padding-left: 0;
+// }
+// .pr-0 {
+// 	padding-right: 0;
+// }
+
+// .line-square {
+// 	@include replace-text-with-dimensions("icon_line@2x.png", center, center);
+// 	@include background-size(30px 30px);
+// 	display: inline;
+// 	height: 30px;
+// 	width: 30px;
+// 	padding-left: 30px;
+// }
+
+// .clear {
+// 	clear: both;
+// 	display: block;
+// 	height: 0;
+// 	overflow: hidden;
+// 	visibility: hidden;
+// 	width: 0;
+// }
+%cf {
+	*zoom: 1;
+	&:after {
+		clear: both;
+		content: " ";
+		display: table;
+	}
+	&:before {
+		content: " ";
+		display: table;
+	}
+}
+
+%circle {
+	@include border-radius(100%);
+}
+
+// .iframe-responsive-43 {
+// 	position: relative;
+// 	padding-bottom: (3/4) * 100%;
+// 	padding-top: 35px;
+// 	height: 0;
+// 	overflow: hidden;
+// 	iframe {
+// 		position: absolute;
+// 		top:0;
+// 		left: 0;
+// 		width: 100%!important;
+// 		height: 100%!important;
+// 	}
+// }
+// .iframe-responsive-169 {
+// 	position: relative;
+// 	padding-bottom: (9/16) * 100%;
+// 	padding-top: 35px;
+// 	height: 0;
+// 	overflow: hidden;
+// 	iframe {
+// 		position: absolute;
+// 		top:0;
+// 		left: 0;
+// 		width: 100%!important;
+// 		height: 100%!important;
+// 	}
+// }
+
+
+// .col-xs-15,
+// .col-sm-15,
+// .col-md-15,
+// .col-lg-15 {
+// 	position: relative;
+// 	min-height: 1px;
+// 	padding-right: 12px;
+// 	padding-left: 12px;
+// }
+// .col-xs-15 {
+// 	width: 20%;
+// 	float: left;
+// }
+// @media (min-width: 768px) {
+// 	.col-sm-15 {
+// 		width: 20%;
+// 		float: left;
+// 	}
+// }
+// @media (min-width: 1024px) {
+// 	.col-md-15 {
+// 		width: 20%;
+// 		float: left;
+// 	}
+// }
+// @media (min-width: 1200px) {
+// 	.col-lg-15 {
+// 		width: 20%;
+// 		float: left;
+// 	}
+// }
+
+// Webkit
+// @media screen and (-webkit-min-device-pixel-ratio:0) {
+
+// 	.reservation-form {
+// 		label {
+// 			width: 100%;
+// 		}
+// 		select {
+// 			height: 28px;
+// 			width: 100%;
+// 			@include box-shadow(none);
+// 		}
+// 	}
+
+// }

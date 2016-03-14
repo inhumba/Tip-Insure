@@ -1,0 +1,255 @@
+/* EDITOR
+---------------------------------------*/
+
+.editor {
+	// margin-top: 20px;
+	// @include font-size(14);
+	h1, h2, h3, h4, h5, h6 {
+		color: $heading-color;
+		font-family: $font-kelson-bold;
+		// letter-spacing: 1px;
+		line-height: 1.4;
+		margin: 0 0 10px 0;
+	}
+	h1 {font-size: 2em}
+	h2 {font-size: 1.8em}
+	h3 {font-size: 1.6em}
+	h4 {font-size: 1.4em}
+	h5 {font-size: 1.2em}
+	h6 {font-size: 1em}
+	p, li {
+		color: $text-color;
+		@extend %roboto-normal;
+		// font-family: $font-tahoma;
+		font-size: 1em;
+		line-height: 1.6;
+		// letter-spacing: 1px;
+		margin-bottom: 20px;
+	}
+	a {
+		color: $link-color;
+		@extend %roboto-normal;
+		// font-family: $font-tahoma;
+		font-size: 1em;
+		text-decoration: underline;
+		&:hover {
+		  color: $link-hover-color;
+		  text-decoration: underline;
+		}
+	}
+	ul, ol {
+		margin-bottom: 20px;
+		// padding-left: 20px;
+	}
+	li {
+		list-style: disc;
+		margin-left: 30px;
+		margin-bottom: 5px;
+	}
+	ol > li {
+		list-style: decimal;
+	}
+	ul.no-bullet > li {
+		list-style: none;
+		margin-left: 15px;
+	}
+	table {
+		margin: 0 0 20px;
+		width: 100%;
+		tr,
+		tr td,
+		tr th {
+			border: none;
+			color: $text-color;
+			@extend %roboto-light;
+			font-size: 1em;
+			line-height: 1.6;
+			// letter-spacing: 1px;
+		}
+		tr td, tr th {
+			padding: 10px 20px;
+			vertical-align: top;
+		}
+	}
+	// tr th, .thead {
+	// 	background: $blue;
+	// 	// border-bottom-width: 2px!important;
+	// 	color: #fff;
+	// 	padding: 10px;
+	// 	text-align: center;
+	// }
+	// tr td {
+	// 	padding: 10px 15px;
+	// 	// li {
+	// 	// 	margin-left: 15px;
+	// 	// }
+	// }
+	hr {
+		background: #d5d5d5;
+		border: none;
+		clear: both;
+		height: 1px;
+		margin: 30px 0;
+	}
+	// img, .img-responsive {
+	// 	display: block;
+	// 	// margin-bottom: 15px;
+	// 	margin: 0 auto 15px;
+	// 	max-width: 100%;
+	// 	height: auto;
+	// }
+	// .date {
+		// color: #a4a3aa;
+		// font-family: $tr;
+		// font-size: 1em;
+		// margin-bottom: 5px;
+	// }
+	blockquote {
+		border: none;
+		color: $lightgrey;
+		font-style: italic;
+		line-height: 1.6;
+	}
+	// .clip {
+	// 	margin-bottom: 20px;
+	// }
+}
+
+.information.editor {
+	table {
+		@extend ._zebra;
+	}
+	h4, h5 {
+		background-color: #FFE9A1;
+		color: $grey;
+		@extend %roboto-bold;
+		font-size: 1.3em;
+		margin: 0;
+		text-align: center;
+	}
+	h4 {
+		padding-top: 30px;
+		padding-bottom: 5px;
+	}
+	h5 {
+		font-weight: 400;
+		font-size: 1em;
+		padding-bottom: 30px;
+	}
+	tr td {
+		h4 {
+			padding: 10px 20px;
+			text-align: left;
+		}
+	}
+}
+
+.compare.editor {
+	table {
+		@extend ._zebra;
+		text-align: center;
+	}
+	h4, h5 {
+		// background-color: #FFE9A1;
+		color: $grey;
+		@extend %roboto-medium;
+		font-size: 1.1em;
+		margin: 0;
+		padding: 10px 20px;
+	}
+	h4 {
+		font-size: 1.2em;
+		padding: 20px 5px;
+		text-align: center;
+	}
+	h5 {
+		background-color: #FFE9A1;
+	}
+	tr th {
+		background-color: #F2BB00;
+		padding: 0;
+	}
+	tr td:first-child {
+		text-align: left;
+		font-weight: 500;
+	}
+	tr td {
+		border-right: 1px solid #DCDCDC;
+	}
+	tr td:last-child {
+		border-right: none;
+	}
+}
+
+.tv.editor {
+	table {
+		@extend ._zebra;
+		text-align: center;
+	}
+	tr th {
+		background-color: #FFE9A1;
+		color: $grey;
+		@extend %roboto-bold;
+		font-size: 1.3em;
+		margin: 0;
+		text-align: center;
+	}
+	tr td {
+		border-right: 1px solid #DCDCDC;
+	}
+	tr td:last-child {
+		border-right: none;
+	}
+}
+
+.oneday .editor {
+	img {
+		display: block;
+		margin: 0 auto 15px;
+		max-width: 100%;
+		height: auto;
+	}
+	a {
+		color: #FFF;
+		font-size: 1.1em;
+		display: block;
+		margin: 20px auto 40px;
+		padding: 10px;
+		@include text-shadow(0 1px 1px #000);
+		@include border-radius(3px);
+		text-transform: uppercase;
+		text-decoration: none;
+		width: 300px;
+		text-align: center;
+		background: #f37650;
+		@include background-image(linear-gradient(-180deg, #f37650 50%, #f0572b 50%));
+		&:hover {
+			background: #f0572b;
+			@include text-shadow(none);
+		}
+	}
+}
+
+
+// @media (max-width: 768px) {
+
+// 	.editor {
+// 		.clip {
+// 			margin: 0 0 20px 0;
+// 			position: relative;
+// 			padding-bottom: 56.25%;
+// 			padding-top: 35px;
+// 			height: 0;
+// 			overflow: hidden;
+// 			iframe {
+// 				position: absolute;
+// 				top:0;
+// 				left: 0;
+// 				width: 100%!important;
+// 				height: 100%!important;
+// 			}
+// 		}
+// 	}
+
+// }
+
