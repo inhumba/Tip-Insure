@@ -33,8 +33,9 @@ Version: 2.0
 // @import "components/owlcarousel";
 // @import "components/mmenu";
 // @import "components/multidropdown";
-// @import "components/form";
+@import "components/form";
 // @import "components/datepicker";
+@import "components/select2";
 // @import "components/selectric";
 // @import "components/modal";
 // @import "components/tabs";
@@ -47,5 +48,5 @@ Version: 2.0
 @import "misc/misc";
 
 //== Media query
-// @import "mq/mq";
+@import "mq/desktopfirst";
 

@@ -14,10 +14,10 @@ h1, h2, h3, h4, h5, h6 {
 	// letter-spacing: 1px;
 	margin: 0;
 }
-h1 {font-size: 2em}
-h2 {font-size: 1.8em}
-h3 {font-size: 1.6em}
-h4 {font-size: 1.4em}
+h1 {font-size: 1.6em}
+h2 {font-size: 1.5em}
+h3 {font-size: 1.4em}
+h4 {font-size: 1.3em}
 h5 {font-size: 1.2em}
 h6 {font-size: 1em}
 
@@ -37,10 +37,10 @@ a {
 }
 
 .top {
-	@include font-size(12);
+	@include font-size(15);
 }
 .header {
-	@include font-size(15);
+	@include font-size(13);
 }
 .footer-info {
 	@include font-size(17);
@@ -54,15 +54,18 @@ a {
 .bottom-text {
 	@include font-size(22);
 }
-// .promotion-widget {
-// 	@include font-size(20);
-// }
-// .welcome {
-// 	@include font-size(14);
-// }
-// .editor {
-// 	@include font-size(14);
-// }
+.service-text {
+	@include font-size(28);
+}
+.service-feature {
+	@include font-size(28);
+}
+.tabform {
+	@include font-size(18);
+}
+.main-nav {
+	@include font-size(21);
+}
 // .page-header {
 // 	@include font-size(14);
 // }

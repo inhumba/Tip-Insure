@@ -1,0 +1,53 @@
+
+// Tabform
+aside.tabform
+
+	.container
+		.row
+
+			.col-sm-5.col-sm-offset-7.tab-wrap
+
+				.col-xs-3._pd0
+					ul.nav.nav-tabs.tabs-left
+						li.active.motor-tab: a(href="#motor-tab", data-toggle="tab") Motor
+						li.ta-tab: a(href="#ta-tab", data-toggle="tab") TA
+						li.pa-tab: a(href="#pa-tab", data-toggle="tab") PA
+
+				.col-xs-9._pd0
+					.tab-content
+						#motor-tab.tab-pane.active
+							h1.topic ประกันภัยรถยนต์
+
+							form.motor-form(action="")
+								.form-group
+									select.form-control.select2(data-placeholder="ยี่ห้อรถ")
+										option
+										each val in [1, 2, 3, 4, 5]
+											option= val
+								.form-group
+									.row
+										.col-xs-6(style="padding-right: 5px")
+											select.form-control.select2(data-placeholder="รุ่น")
+												option
+												each val in [1, 2, 3, 4, 5]
+													option= val
+										.col-xs-6(style="padding-left: 5px")
+											select.form-control.select2(data-placeholder="รุ่นย่อย")
+												option
+												each val in [1, 2, 3, 4, 5]
+													option= val
+								.form-group
+									input.form-control(type="text", placeholder="ปีที่จดทะเบียน")
+								.form-group
+									input.form-control(type="text", placeholder="ชนิดการจดทะเบียน")
+								.form-group
+									.col-xs-8.col-xs-offset-2
+										button.btn.btn-block.btn-red(type="submit"): span คำนวณเบี้ย
+								a.link(href="") อ่านข้อมูลเพิ่มเติม
+
+						#ta-tab.tab-pane
+							h1.topic TA
+
+						#pa-tab.tab-pane
+							h1.topic PA
+

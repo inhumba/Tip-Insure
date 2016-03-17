@@ -16,11 +16,20 @@ html(lang="en", class="no-js")
 		//- Google Tag Manager inc
 		//- include googletagmanager.html
 
-		//- Header inc
-		include header
+		//- Header Wrapper
+		section.header-wrap
+
+			//- Header inc
+			include header
+
+			//- Tabform inc
+			//- include tabform
 
 		//- Feature inc
-		//- include feature
+		include feature
+
+		//- Tabform inc
+		include tabform
 
 		// Service
 		section.content.service
@@ -30,9 +39,63 @@ html(lang="en", class="no-js")
 
 					.col-xs-12
 
-						article
+						article.service-text
 
-							h1 Service
+							h1 ทำไมต้อง?
+							h2._fontarial TIP INSURE
+							p <b>Tip insure เว็บไซต์ขายประกันออนไลน์จาก บริษัท ทิพยประกันภัย จำกัด (มหาชน)</b><br>บริษัทประกันภัยชั้นนำของไทย มั่นคงด้วยภาครัฐเป็นผู้ถือหุ้นใหญ่<br>มีความชำนาญในการเป็นผู้รับประกันภัยที่ได้มาตรฐานประกันภัยสากล<br>จึงทำให้ได้รับความไว้วางใจจากทั้งภาครัฐและเอกชนให้เป็นผู้รับประกันภัยโครงการสำคัญขนาดใหญ่ ระดับประเทศ
+
+				.row
+
+					article.service-feature
+
+						.col-xs-6.col-sm-4
+							a.service-figure(href="#")
+								figure.outer
+									.inner
+										.img.img-1
+								h2 คุ้มค่า คุ้มราคา
+								p สุดคุ้มกับความคุ้มครองที่มากกว่า<br>และเบี้ยประกันภัยราคาพิเศษ<br>พร้อมโปรโมชั่นโดนใจทุกเดือน
+
+						.col-xs-6.col-sm-4
+							a.service-figure(href="#")
+								figure.outer
+									.inner
+										.img.img-2
+								h2 ตอบสนอง ครอบคลุม
+								p ตอบสนองทุกความต้องการของลูกค้า<br>ด้วยการประกันภัยหลากหลายที่คุณเลือกได้<br>กับช่องทางการบริการที่ครอบคลุมทุกพื้นที่ทั่วประเทศ
+
+						.col-xs-6.col-sm-4
+							a.service-figure(href="#")
+								figure.outer
+									.inner
+										.img.img-3
+								h2 ปลอดภัย ไร้กังวล
+								p ซื้อประกันอย่างมั่นใจ ปลอดภัยทุกการชำระเงิน<br>ด้วยระบบการชำระเงินออนไลน์<br>มาตรฐานความปลอดภัยของการส่งผ่านข้อมูลแบบ SSL
+
+						.col-xs-6.col-sm-4
+							a.service-figure(href="#")
+								figure.outer
+									.inner
+										.img.img-4
+								h2 มั่นใจกับประกันภัยที่มั่นคง
+								p ภาครัฐเป็นผู้ถือหุ้นใหญ่<br>ดำเนินงานด้วยความมั่นคงมากว่า 65 ปี<br>ด้วยหลักธรรมาภิบาล<br>มีความรับผิดชอบต่อเศรษฐกิจและสังคม
+
+						.col-xs-6.col-sm-4
+							a.service-figure(href="#")
+								figure.outer
+									.inner
+										.img.img-5
+								h2 เคลมง่าย สบายใจ
+								p Tip Smart Survey รวดเร็วด้วยการนำเทคโนโลยี<br>ระบบ 3G มาใช้ในอุปกรณ์ Tablet<br>สามารถ print ใบสั่งซ่อมได้ทันที<br>หรือเลือกทำเคลมได้ด้วยตัวคุณเอง<br>ผ่านแอพพลิเคชั่น Tip Flash Claim ?<br>"เคลมเร็ว เคลมง่าย ได้ทุกที่"
+
+						.col-xs-6.col-sm-4
+							a.service-figure(href="#")
+								figure.outer
+									.inner
+										.img.img-6
+								h2 ดูแลตลอด 24 ชม.
+								p พร้อมดูแลคุณตลอด 24 ชั่วโมง<br>ทั้งเรื่องการซื้อประกันภัยง่ายๆผ่านเว็บ Tip insure <br>และศูนย์รับแจ้งอุบัติเหตุที่คอยให้ความช่วยเหลือคุณ <br>ผ่านระบบ Call Center โทร.1736
 
 
 		// Promo
@@ -55,7 +118,7 @@ html(lang="en", class="no-js")
 
 					article.quickcontact-info
 
-						.col-sm-6
+						.col-sm-6.hidden-xs
 
 							.contactgirl
 
@@ -66,8 +129,27 @@ html(lang="en", class="no-js")
 									h4.topic สอบถามเพิ่มเติม
 									h4.topic: span ให้ทิพยติดต่อกลับนะคะ
 
-								form.quickcontact-form
-									p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto reprehenderit, officia, ipsa voluptatibus modi, repudiandae obcaecati quos autem, praesentium velit nostrum. Mollitia optio quaerat odit, expedita dolores amet labore sapiente.
+								form.quickcontact-form.form-horizontal
+									.row
+										.form-group
+											label.col-xs-2.control-label.icon-people
+											.col-xs-10
+												input.form-control(type="text", name="name" placeholder="ชื่อ")
+										.form-group
+											label.col-xs-2.control-label.icon-phone
+											.col-xs-10
+												input.form-control(type="text", name="phone" placeholder="เบอร์โทรศัพท์")
+										.form-group
+											label.col-xs-2.control-label.icon-email
+											.col-xs-10
+												input.form-control(type="email", name="email" placeholder="อีเมล")
+										.form-group
+											label.col-xs-2.control-label.icon-thumbup
+											.col-xs-10
+												input.form-control(type="text", name="interest" placeholder="ผลิตภัณฑ์ที่สนใจ")
+										.form-group
+											.col-xs-11
+												button.btn.btn-block.btn-red(type="submit"): span คลิก ! เพื่อให้เราติดต่อกลับ
 
 
 		// Quick Claim
@@ -82,20 +164,6 @@ html(lang="en", class="no-js")
 
 							h6.topic ต้องการแจ้งเคลม โทร. <span>1736</span> กด <span>1</span> ตลอด 24 ชั่วโมง
 
-
-		//- // Modal
-		//- #popup.modal.fade(tabindex="-1", role="dialog")
-		//- 	.modal-dialog.modal-sm
-		//- 		.modal-content
-		//- 			.modal-header
-		//- 				button.close(type="button", data-dismiss="modal", aria-label="Close")
-		//- 					span(aria-hidden="true") &times;
-		//- 				h4.modal-title หัวข้อ
-		//- 			.modal-body
-		//- 				h5 ข้อมูลแจ้งเตือน
-		//- 			.modal-footer
-		//- 				button.btn.btn-default(type="button", data-dismiss="modal") Close
-		//- 				button.btn.btn-primary(type="button") OK
 
 		//- Footer inc
 		include footer
