@@ -1,0 +1,8 @@
+
+# ignore jade folder
+html/jade/*
+
+# ignore some files
+*.DS_Store
+config.codekit
+config.rb
